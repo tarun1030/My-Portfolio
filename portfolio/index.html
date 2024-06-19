@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/af57fec99a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div  id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Skills</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="row">
+                <div class="header-text">
+                    <p>Software Developer</p>
+                    <h1>Hi, I'm <span>Tarun</span> From India.</h1>
+                </div>
+                <div class="profile">
+                    <img src="images/mine (2).jpeg" alt="Tarun Profile">
+                </div>
+            </div>
+            </div>
+        </div>
+<!------about------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="cl">Hello! I'm Tarun, a budding Software Developer passionate about creating innovative solutions. Although I'm just starting my journey, I'm eager to dive into the world of coding and development. This portfolio is a glimpse into my early projects and the skills I'm developing. Let's embark on this coding adventure together!</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links " onclick="opentab('Skills')">Coding Skills</p>
+                        <p class="tab-links" onclick="opentab('Certification')">Certification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Education">
+                        <ul>
+                            <li><span>2021-2025</span><br> Under Graduation at SRKR Engineering college.</li>
+                            <li><span>2019-2021</span><br> Intermediate at Sasi Junior college.</li> 
+                            <li><span>2018-2019</span><br> 10th at Sasi E.M High School.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="Skills">
+                        <ul>
+                            <li><span>1.</span> C/C++</li>
+                            <li><span>2.</span> PYTHON</li> 
+                            <li><span>3.</span> JAVA</li>
+                            <li><span>4.</span> HTML,CSS,JAVASCRIPT</li>
+                            <li><span>5.</span> DBMS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certification">
+                        <ul>
+                            <li><span>Henotic Internship Certificate</span><br> Certified in AIML Internship Based on Bank subscription.</li>
+                            <li><span>NPTEL Certification in JAVA</span><br> Elite certified in JAVA.</li> 
+                            <li><span>NPTEL Certification in c</span><br> Elite certified in C programming.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------skills------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <h2>Web Design</h2>
+                <p>Web Development using HTML,CSS,JavaScript. </p>
+                </div>
+            <div>
+                <i class="fa-solid fa-building-columns"></i>
+                <h2>AIML</h2>
+                <p>Machine Learning and Deep Learning using python. </p>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>DBMS</h2>
+                <p>DataBase connectivity, Retriving and Solving Query using Mysql.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!------projects------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Review Website</h3>
+                    <p>A review website on movies,places,food,games and gadgets using HTML,CSS.</p>
+                    <a href="https://github.com/tarun1030/REVIEW-WEBSITE"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.webp">
+                <div class="layer">
+                    <h3>AIML</h3>
+                    <p>Bank Marketing Subcription Prediction by AIML using python.</p>
+                    <a href="https://github.com/tarun1030/Predicting-Term-Deposit-Subscription"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Online Library Website</h3>
+                    <p>A Online library website for searching about books in a college library using HTML,CSS,ML and DL.</p>
+                    <a href="https://github.com/tarun1030/ONLINE-LIBRARY"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a class="btn">See More</a>
+    </div>
+</div>
+<!------contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> ntrsatarun053@gmail.com</p>  
+                <p><i class="fa-solid fa-phone"></i> 9182928524</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Tarun_Resume.pdf" Download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6"placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Tarun. </p>
+    </div>
+</div>
+
+<script>
+     var tablinks = document.getElementsByClassName("tab-links");
+     var tabcontents = document.getElementsByClassName("tab-contents");
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+</script>
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyZ69_NkFjNOx9vhAqSPTdkEyuxrFvhzOuNtK2YMEXaB_dPEwg16KdhavZQj7ekpu_Pqg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
+
+
+
